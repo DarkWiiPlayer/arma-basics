@@ -6,6 +6,7 @@ respawnOnStart = 1;
 class CfgRoles {
 	class Recon { displayName = "Recon"; }
 	class Support { displayName = "Support"; }
+	class Divers { displayName = "Divers"; }
 }
 
 class CfgRespawnInventory {
@@ -92,4 +93,32 @@ class CfgRespawnInventory {
 		items[] = {"FirstAidKit", "optic_Nightstalker", "MineDetector", "FirstAidKit", "FirstAidKit"};
 		linkedItems[] = {"V_Chestrig_rgr", "H_ShemagOpen_tan", "G_Combat", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS", "NVGogglesB_gry_F", "muzzle_snds_338_sand", "acc_pointer_IR", "optic_AMS_snd", "bipod_01_F_snd", "", "", "", ""};
 	}
+
+	class ctrg_diver
+	{
+		displayName = "Assault Diver";
+		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
+		role = "Divers";
+		show = "true";
+		uniformClass = "U_B_Wetsuit";
+		backpack = "";
+		weapons[] = {"Laserdesignator", "arifle_SDAR_F", "Throw", "Put"};
+		magazines[] = {"20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red"};
+		items[] = {"FirstAidKit", "FirstAidKit"};
+		linkedItems[] = {"V_RebreatherB", "", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "B_UavTerminal", "NVGogglesB_blk_F", "", "", "", "", "", "", "", ""};
+	};
+
+	class B_diver_F
+	{
+		displayName = "Demolitions Expert";
+		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
+		role = "Divers";
+		show = "true";
+		uniformClass = "U_B_Wetsuit";
+		backpack = "B_Assault_Diver";
+		weapons[] = {"Laserdesignator", "arifle_SPAR_01_blk_F", "Throw", "Put"};
+		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "DemoCharge_Remote_Mag", "30Rnd_556x45_Stanag", "DemoCharge_Remote_Mag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+		items[] = {"FirstAidKit", "FirstAidKit", "ToolKit"};
+		linkedItems[] = {"V_RebreatherB", "", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "B_UavTerminal", "NVGogglesB_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_ERCO_blk_F", "", "", "", "", ""};
+	};
 }
