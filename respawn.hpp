@@ -53,8 +53,8 @@ class CfgRespawnInventory {
 		uniformClass = "U_B_CTRG_Soldier_Arid_F";
 		backpack = "B_AssaultPack_khk";
 		weapons[] = {"Laserdesignator", "arifle_SPAR_01_blk_F", "hgun_P07_F", "Throw", "Put"};
-		magazines[] = {"16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "30Rnd_556x45_Stanag"};
-		items[] = {"FirstAidKit", "FirstAidKit", "optic_Nightstalker", "Medikit", "Medikit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit"};
+		magazines[] = {"16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+		items[] = {"FirstAidKit", "FirstAidKit", "optic_Nightstalker", "Medikit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit"};
 		linkedItems[] = {"V_TacVest_khk", "H_HelmetB_TI_arid_F", "G_Balaclava_TI_G_blk_F", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS", "NVGogglesB_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Aco", "", "", "", "", ""};
 	};
 
