@@ -94,10 +94,9 @@ class CfgRespawnInventory {
 		linkedItems[] = {"V_Chestrig_rgr", "H_ShemagOpen_tan", "G_Combat", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS", "NVGogglesB_gry_F", "muzzle_snds_338_sand", "acc_pointer_IR", "optic_AMS_snd", "bipod_01_F_snd", "", "", "", ""};
 	}
 
-	class ctrg_diver
+	class blufor_diver
 	{
 		displayName = "Assault Diver";
-		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
 		role = "Divers";
 		show = "true";
 		uniformClass = "U_B_Wetsuit";
@@ -108,17 +107,29 @@ class CfgRespawnInventory {
 		linkedItems[] = {"V_RebreatherB", "", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "B_UavTerminal", "NVGogglesB_blk_F", "", "", "", "", "", "", "", ""};
 	};
 
-	class B_diver_F
+	class blufor_diver_medic
 	{
-		displayName = "Demolitions Expert";
-		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
+		displayName = "Diver Medic";
 		role = "Divers";
 		show = "true";
 		uniformClass = "U_B_Wetsuit";
-		backpack = "B_Assault_Diver";
-		weapons[] = {"Laserdesignator", "arifle_SPAR_01_blk_F", "Throw", "Put"};
-		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "DemoCharge_Remote_Mag", "30Rnd_556x45_Stanag", "DemoCharge_Remote_Mag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
-		items[] = {"FirstAidKit", "FirstAidKit", "ToolKit"};
-		linkedItems[] = {"V_RebreatherB", "", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "B_UavTerminal", "NVGogglesB_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_ERCO_blk_F", "", "", "", "", ""};
+		backpack = "B_AssaultPack_blk";
+		weapons[] = {"arifle_SDAR_F", "hgun_P07_F", "Throw", "Put"};
+		magazines[] = {"30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "Chemlight_blue", "Chemlight_blue", "SmokeShellBlue", "20Rnd_556x45_UW_mag"};
+		items[] = {"FirstAidKit", "Medikit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit"};
+		linkedItems[] = {"V_RebreatherB", "", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS", "", "", "", "", "", "", "", ""};
+	};
+
+	class blufor_diver_demo
+	{
+		displayName = "Diver Explosives Specialist";
+		role = "Divers";
+		show = "true";
+		uniformClass = "U_B_Wetsuit";
+		backpack = "B_AssaultPack_blk_DiverExp";
+		weapons[] = {"arifle_SDAR_F", "hgun_P07_F", "Throw", "Put"};
+		magazines[] = {"30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "Chemlight_blue", "Chemlight_blue", "20Rnd_556x45_UW_mag", "SmokeShellBlue", "SmokeShellRed", "DemoCharge_Remote_Mag", "DemoCharge_Remote_Mag", "DemoCharge_Remote_Mag"};
+		items[] = {"FirstAidKit", "ToolKit", "MineDetector"};
+		linkedItems[] = {"V_RebreatherB", "", "G_B_Diving", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "", "", "", "", "", "", "", ""};
 	};
 }
