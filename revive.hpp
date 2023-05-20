@@ -1,4 +1,4 @@
-ReviveMode = 2;
+ReviveMode = 1;
 ReviveUnconsciousStateMode = 1;
 ReviveRequiredTrait = 0;
 ReviveRequiredItems = 2;
