@@ -17,7 +17,7 @@ class CfgRespawnInventory {
 		uniformClass = "U_B_CTRG_Soldier_Arid_F";
 		backpack = "B_Kitbag_cbr";
 		weapons[] = {"Laserdesignator", "arifle_SPAR_01_snd_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
-		magazines[] = {"11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "DemoCharge_Remote_Mag", "30Rnd_556x45_Stanag_Sand", "30Rnd_556x45_Stanag_Sand", "30Rnd_556x45_Stanag_Sand", "DemoCharge_Remote_Mag", "APERSMineDispenser_Mag", "SatchelCharge_Remote_Mag", "APERSBoundingMine_Range_Mag", "APERSBoundingMine_Range_Mag", "SmokeShellRed", "SmokeShellRed"};
+		magazines[] = {"11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "DemoCharge_Remote_Mag", "30Rnd_556x45_Stanag_Sand_red", "30Rnd_556x45_Stanag_Sand_red", "30Rnd_556x45_Stanag_Sand_red", "DemoCharge_Remote_Mag", "APERSMineDispenser_Mag", "SatchelCharge_Remote_Mag", "APERSBoundingMine_Range_Mag", "APERSBoundingMine_Range_Mag", "SmokeShellRed", "SmokeShellRed"};
 		items[] = {"FirstAidKit", "FirstAidKit", "optic_Nightstalker", "MineDetector", "ToolKit"};
 		linkedItems[] = {"V_PlateCarrier2_rgr_noflag_F", "H_HelmetB_TI_arid_F", "G_Balaclava_TI_G_blk_F", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS", "NVGogglesB_gry_F", "muzzle_snds_m_snd_F", "acc_pointer_IR", "optic_ERCO_snd_F", "", "", "", "", ""};
 	}
@@ -53,7 +53,7 @@ class CfgRespawnInventory {
 		uniformClass = "U_B_CTRG_Soldier_Arid_F";
 		backpack = "B_AssaultPack_khk";
 		weapons[] = {"Laserdesignator", "arifle_SPAR_01_blk_F", "hgun_P07_F", "Throw", "Put"};
-		magazines[] = {"16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+		magazines[] = {"16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red"};
 		items[] = {"FirstAidKit", "FirstAidKit", "optic_Nightstalker", "Medikit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit"};
 		linkedItems[] = {"V_TacVest_khk", "H_HelmetB_TI_arid_F", "G_Balaclava_TI_G_blk_F", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS", "NVGogglesB_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Aco", "", "", "", "", ""};
 	};
@@ -77,7 +77,7 @@ class CfgRespawnInventory {
 		uniformClass = "U_B_CTRG_Soldier_Arid_F";
 		backpack = "";
 		weapons[] = {"Laserdesignator", "arifle_SPAR_01_blk_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
-		magazines[] = {"11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+		magazines[] = {"11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red"};
 		items[] = {"FirstAidKit", "FirstAidKit", "MineDetector"};
 		linkedItems[] = {"V_Chestrig_rgr", "H_ShemagOpen_tan", "G_Combat", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS", "NVGogglesB_gry_F", "muzzle_snds_M", "acc_pointer_IR", "optic_AMS", "", "", "", "", ""};
 	}
