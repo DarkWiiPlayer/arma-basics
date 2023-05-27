@@ -94,6 +94,18 @@ class CfgRespawnInventory {
 		linkedItems[] = {"V_Chestrig_rgr", "H_ShemagOpen_tan", "G_Combat", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "itemGPS", "NVGogglesB_gry_F", "muzzle_snds_338_sand", "acc_pointer_IR", "optic_AMS_snd", "bipod_01_F_snd", "", "", "", ""};
 	}
 
+	class ctrg_assault {
+		displayName = "Assault";
+		role = "Recon";
+		show = "true";
+		uniformClass = "U_B_CTRG_Soldier_Arid_F";
+		backpack = "B_AssaultPack_rgr";
+		weapons[] = {"Rangefinder", "arifle_SPAR_01_GL_snd_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
+		magazines[] = {"11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "Chemlight_blue", "Chemlight_blue", "Chemlight_blue", "Chemlight_blue", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "30Rnd_556x45_Stanag_Sand_red", "30Rnd_556x45_Stanag_Sand_red", "30Rnd_556x45_Stanag_Sand_red", "30Rnd_556x45_Stanag_Sand_red", "30Rnd_556x45_Stanag_Sand_red", "30Rnd_556x45_Stanag_Sand_red", "MiniGrenade", "MiniGrenade", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell", "SmokeShellBlue", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", "MiniGrenade", "MiniGrenade", "HandGrenade", "HandGrenade", "150Rnd_556x45_Drum_Sand_Mag_F", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell"};
+		items[] = {"FirstAidKit", "FirstAidKit"};
+		linkedItems[] = {"V_PlateCarrier2_rgr_noflag_F", "H_HelmetB_TI_arid_F", "G_Balaclava_TI_G_blk_F", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS", "NVGogglesB_gry_F", "muzzle_snds_m_snd_F", "acc_pointer_IR", "optic_ERCO_snd_F", "", "", "", "", ""};
+	};
+
 	class blufor_diver
 	{
 		displayName = "Assault Diver";
