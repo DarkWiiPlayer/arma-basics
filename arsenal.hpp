@@ -2,6 +2,7 @@ class Arsenal {
 	class CTRG {
 		weapons[] = {
 			"SMG_01_F", "arifle_SPAR_01_blk_F", "arifle_SPAR_01_khk_F", "arifle_SPAR_01_snd_F", "arifle_SPAR_01_GL_blk_F", "arifle_SPAR_01_GL_khk_F", "arifle_SPAR_01_GL_snd_F", "MMG_02_camo_F", "MMG_02_black_F", "MMG_02_sand_F", "LMG_03_F", "LMG_03_Vehicle_F", "arifle_SPAR_02_blk_F", "arifle_SPAR_02_khk_F", "arifle_SPAR_02_snd_F", "srifle_LRR_F", "srifle_LRR_camo_F", "srifle_DMR_02_F", "srifle_DMR_02_camo_F", "srifle_DMR_02_sniper_F", "srifle_DMR_03_F", "srifle_DMR_03_khaki_F", "srifle_DMR_03_tan_F", "srifle_DMR_03_multicam_F", "srifle_DMR_03_woodland_F", "srifle_LRR_tna_F", "arifle_SPAR_03_blk_F", "arifle_SPAR_03_khk_F", "arifle_SPAR_03_snd_F", "launch_NLAW_F", "launch_B_Titan_F", "launch_B_Titan_short_F", "launch_I_Titan_short_F", "launch_O_Titan_short_F", "launch_B_Titan_tna_F", "launch_B_Titan_short_tna_F", "launch_B_Titan_olive_F", "hgun_P07_F", "hgun_Pistol_heavy_01_F", "hgun_P07_khk_F", "hgun_P07_blk_F", "hgun_Pistol_heavy_01_green_F", "Binocular", "Rangefinder", "Laserdesignator", "Laserdesignator_03", "Laserdesignator_01_khk_F",
+			"arifle_Mk20_plain_F","arifle_Mk20C_plain_F","arifle_Mk20_GL_plain_F", // For vanilla players tehe~
 		};
 		magazines[] = {
 			"1Rnd_HE_Grenade_shell",
