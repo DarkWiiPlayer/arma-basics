@@ -4,12 +4,28 @@ respawnDelay = 5;
 respawnOnStart = 1;
 
 class CfgRoles {
+	class Recon { displayName = "Assault"; }
 	class Recon { displayName = "Recon"; }
 	class Support { displayName = "Support"; }
 	class Divers { displayName = "Divers"; }
 }
 
 class CfgRespawnInventory {
+	class ctrg_rifleman
+	{
+		displayName = "Rifleman";
+		role = "Assault";
+		show = "true";
+		uniformClass = "U_B_CTRG_1";
+		backpack = "";
+		weapons[] = {"Laserdesignator", "arifle_Mk20_plain_F", "hgun_P07_F", "Throw", "Put"};
+		magazines[] = {"30Rnd_556x45_Stanag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "16Rnd_9x21_Mag"};
+		items[] = {"FirstAidKit", "optic_Nightstalker"};
+		linkedItems[] = {"V_PlateCarrierH_CTRG", "H_HelmetB_camo", "G_Bandanna_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS", "NVGoggles", "muzzle_snds_m_snd_F", "acc_pointer_IR", "optic_Hamr"};
+	};
+
+	// ----------------------------------------
+
 	class ctrg_demo {
 		displayName = "Demolition Expert";
 		role = "Support";
@@ -58,6 +74,8 @@ class CfgRespawnInventory {
 		linkedItems[] = {"V_TacVest_khk", "H_HelmetB_TI_arid_F", "G_Balaclava_TI_G_blk_F", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS", "NVGogglesB_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Aco", "", "", "", "", ""};
 	};
 
+	// ----------------------------------------
+
 	class ctrg_marksman {
 		displayName = "Marksman";
 		role = "Recon";
@@ -105,6 +123,8 @@ class CfgRespawnInventory {
 		items[] = {"FirstAidKit", "FirstAidKit"};
 		linkedItems[] = {"V_PlateCarrier2_rgr_noflag_F", "H_HelmetB_TI_arid_F", "G_Balaclava_TI_G_blk_F", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS", "NVGogglesB_gry_F", "muzzle_snds_m_snd_F", "acc_pointer_IR", "optic_ERCO_snd_F", "", "", "", "", ""};
 	};
+
+	// ----------------------------------------
 
 	class blufor_diver
 	{
