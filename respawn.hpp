@@ -4,7 +4,7 @@ respawnDelay = 5;
 respawnOnStart = 1;
 
 class CfgRoles {
-	class Recon { displayName = "Assault"; }
+	class Assault { displayName = "Assault"; }
 	class Recon { displayName = "Recon"; }
 	class Support { displayName = "Support"; }
 	class Divers { displayName = "Divers"; }
